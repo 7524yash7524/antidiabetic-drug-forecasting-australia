@@ -11,7 +11,7 @@ of antidiabetic drug prescriptions in Australia from 1991 to 2008.
 - Rolling forecast evaluation using MAPE
 
 ### Result:
-SARIMA(2,1,3)(1,1,3,12) achieved a MAPE of 7.90% vs 12.69% for the naive seasonal baseline.
+SARIMA(3,1,1)(1,1,3,12) achieved a MAPE of 7.90% vs 12.69% for the naive seasonal baseline.
 
 ### Libraries used:
 statsmodels, pandas, numpy, matplotlib, sklearn
